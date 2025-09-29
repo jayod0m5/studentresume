@@ -1,15 +1,15 @@
 #intro {
     text-align:center;
-    height: 100px;
+    height: 6.25em;
     width: 25%;
-    font-size: 20px;
+    font-size: 1.25em;
     float:left;
     padding-top:100px;
     padding-bottom:500px;
-    margin: 50px;
+    margin: 3.125em;
     background-color: aquamarine;
     border-radius:10px;
-    border: 3px solid grey;
+    border: 3px solid pink;
 }
 
 div {
@@ -82,4 +82,68 @@ section > h3 > a{
 section > h3 > a:hover{
     text-decoration:underline;
     color:  white;
+}
+
+@media only screen and (max-width: 1095px) {
+
+  #intro {
+        text-align:center;
+        height: auto;
+        width: auto;
+        font-size: 1em;
+        position:relative;
+        padding-top:100px;
+        padding-bottom:150px;
+        margin:25px;
+        background-color: aquamarine;
+        border-radius:10px;
+        border: 3px solid pink;
+    }
+
+    .pic{
+        width:75%;
+        padding-bottom:250px;
+        height:auto;
+        position:relative;
+        left:15%;
+    }
+
+    span > a:visited, span > a:link{
+        color:black;
+        text-decoration:none;
+        font-style:oblique;
+        font-size:1.5em;
+    }   
+
+}
+
+@media only screen and (max-width: 600px) {
+   #intro {
+        text-align:center;
+        height: auto;
+        width: auto;
+        font-size: 1em;
+        position:relative;
+        padding-top:100px;
+        padding-bottom:150px;
+        margin:25px;
+        background-color: aquamarine;
+        border-radius:10px;
+        border: 3px solid pink;
+    }
+
+    .pic{
+        width:75%;
+        padding-bottom:250px;
+        height:auto;
+        position:relative;
+        left:15%;
+    }
+
+    span > a:visited, span > a:link{
+        color:black;
+        text-decoration:none;
+        font-style:oblique;
+        font-size:1em;
+}   
 }

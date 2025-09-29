@@ -42,3 +42,75 @@ span > a{
     font-family:Quicksand;
     font-size: 35px;
 }
+
+div > .pic {
+    width: 100%;
+    position:relative;
+    top:3em;
+}
+
+a > img {
+    width:100%;
+}
+
+@media only screen and (max-width: 1095px) {
+
+    div {
+        text-align:center;
+        height: auto;
+        width: 95%;
+        font-size: 2em;
+        position:relative;
+        padding-top:100px;
+        padding-bottom:150px;
+        margin:25px;
+        background-color: aquamarine;
+        border-radius:10px;
+        border: 3px solid pink;
+    }
+
+    div > .pic {
+        width: 100%;
+        position:relative;
+        top:3em;
+    }
+
+    a > img {
+        width:100%;
+    }
+
+    span > a:visited, span > a:link{
+        color:black;
+        text-decoration:none;
+        font-style:oblique;
+        font-size:1.5em;
+    }   
+
+}
+
+@media only screen and (max-width: 600px) {
+   div {
+        text-align:center;
+        height: auto;
+        width: 90%;
+        font-size: 1em;
+        position:relative;
+        padding-top:100px;
+        padding-bottom:150px;
+        margin:25px;
+        background-color: aquamarine;
+        border-radius:10px;
+        border: 3px solid pink;
+    }
+
+    div > .pic{
+        width:75%;
+    }
+
+    span > a:visited, span > a:link{
+        color:black;
+        text-decoration:none;
+        font-style:oblique;
+        font-size:1em;
+}   
+}
